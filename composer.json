@@ -1,0 +1,12 @@
+{
+    "name": "jduret/basic",
+    "description": "Skeleton for PHPUnit",
+    "type": "project",
+    "require": {
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    },
+    "license": "Apache2"
+}

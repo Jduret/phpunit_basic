@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+    colors="true"
+    convertErrorsToExceptions="true"
+    convertNoticesToExceptions="true"
+    convertWarningsToExceptions="true"
+    forceCoversAnnotation="false"
+    processIsolation="false"
+    stopOnError="false"
+    stopOnFailure="false"
+    stopOnIncomplete="false"
+    stopOnSkipped="false"
+    bootstrap="bootstrap.php"
+    verbose="false"
+    >
+
+    <testsuites>
+        <testsuite name="AllTests">
+        <directory>.</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php"></directory>
+            <file></file>
+            <exclude>
+                <directory suffix=".php"></directory>
+                <file></file>
+            </exclude>
+        </whitelist>
+    </filter>
+</phpunit>
